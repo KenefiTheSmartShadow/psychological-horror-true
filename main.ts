@@ -135,7 +135,7 @@ Covered = 0
 pauseUntil(() => controller.A.isPressed())
 createEntity()
 scene.cameraFollowSprite(Key)
-game.splash("Here's the key, go find it.")
+game.showLongText("Here's the key, go find it.", DialogLayout.Bottom)
 pause(2000)
 scene.cameraFollowSprite(User)
 info.startCountdown(180)
